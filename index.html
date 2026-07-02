@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Astro is an iPhone and iPad app for following satellites, space news, and mission content.">
+    <title>Astro | Track what is overhead</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Astro home">
+        <img src="app-icon.png" alt="" class="brand-icon">
+        <span>Astro</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#pro">Pro</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Built for iPhone and iPad</p>
+            <h1>Astro</h1>
+            <p class="hero-text">
+              Follow orbital assets, read space news, and keep mission context close
+              in one calm app.
+            </p>
+          </div>
+          <img src="image.png" alt="Astro app shown on iPad and iPhone" class="hero-showcase">
+        </div>
+      </section>
+
+      <section class="section feature-band" id="features">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Quick context</p>
+            <h2>Know what is overhead.</h2>
+          </div>
+          <div class="feature-list">
+            <article>
+              <h3>Track orbital assets</h3>
+              <p>Select satellites and follow their live position from a focused map view.</p>
+            </article>
+            <article>
+              <h3>Read space news</h3>
+              <p>Catch up on recent mission and spaceflight stories without leaving the app.</p>
+            </article>
+            <article>
+              <h3>Explore missions</h3>
+              <p>Keep useful mission notes and learning material close to the tracking experience.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pro-band" id="pro">
+        <div class="section-inner pro-layout">
+          <div>
+            <p class="eyebrow">Astro Pro</p>
+            <h2>Save more for later.</h2>
+            <p>
+              Pro is planned for people who want local downloads, expanded access to
+              assets, and a cleaner reading flow when they are away from a connection.
+            </p>
+          </div>
+          <div class="pro-list">
+            <div>
+              <span class="checkmark">&#10003;</span>
+              <p>Save supported satellites for offline reference.</p>
+            </div>
+            <div>
+              <span class="checkmark">&#10003;</span>
+              <p>Open downloaded articles without waiting on the network.</p>
+            </div>
+            <div>
+              <span class="checkmark">&#10003;</span>
+              <p>Unlock the full set of supported tracked assets.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wishlist-band" id="wishlist">
+        <div class="section-inner wishlist-layout">
+          <div>
+            <p class="eyebrow">Wishlist</p>
+            <h2>Get notified when Astro is ready.</h2>
+            <p>
+              Leave your email to follow the launch and future app updates.
+            </p>
+          </div>
+          <form class="wishlist-form" method="POST" action="https://formspree.io/f/meebrwkn">
+            <input type="hidden" name="_subject" value="New Astro wishlist signup">
+            <input type="hidden" name="_next" value="thanks.html">
+            <input type="hidden" name="message" value="A user joined the Astro wishlist. Their email address is in the email field.">
+            <label for="wishlist-email">Email address</label>
+            <div class="wishlist-input-row">
+              <input id="wishlist-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+              <button type="submit">Join</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="brand footer-brand" href="index.html">
+          <img src="app-icon.png" alt="" class="brand-icon">
+          <span>Astro</span>
+        </a>
+        <nav aria-label="Footer navigation">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="support.html">Support</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
